@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "arxiv-page"
+version = "0.1.0"
+description = ""
+authors = ["Ambuj Pawar <ambuj.pawar95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+arxiv = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
