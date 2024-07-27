@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
-from arxiv import Client, Search, SortCriterion, SortOrder
 
+# Third-party imports
+from arxiv import Client, Search, SortCriterion, SortOrder
+from click import
 # Construct the default API client.
 client = Client()
 today = datetime.today() - timedelta(days=1)
@@ -24,3 +26,7 @@ for r in results:
         print(f"Categories: {r.categories}")
         print(f"Summary: {r.summary}")
         print(f"Link: {r.pdf_url}")
+
+
+if __name__ == '__main__':
+    main()
