@@ -584,6 +584,17 @@ files = [
 pyyaml = "*"
 
 [[package]]
+name = "radicli"
+version = "0.0.25"
+description = "Radically lightweight command-line interfaces"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "radicli-0.0.25-py3-none-any.whl", hash = "sha256:a825c17df32d895dedfe52e8c5d01ae85a2bd604faba10ad86066a30c886c3ad"},
+    {file = "radicli-0.0.25.tar.gz", hash = "sha256:71b1917ab0f1c565e1ae9a830dff0061dab205de093f1329721935c239b8fe7a"},
+]
+
+[[package]]
 name = "regex"
 version = "2024.7.24"
 description = "Alternative regular expression module, to replace re."
@@ -843,4 +854,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f0d45843e569ccf15f9aef34402bdaea5e66ea665761a419c2d0cecb89a0f2d6"
+content-hash = "1614636d2eaaa8b90c31b8a15f3788cd616f099c382c7f6a3c62a7504e3683f9"
